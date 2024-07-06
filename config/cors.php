@@ -15,19 +15,19 @@ return [
     |
     */
 
-    'paths' => ['api/*', 'sanctum/csrf-cookie', '*'],
+    'paths' => ['api/*', 'sanctum/csrf-cookie', 'fetch-weather', 'fetch-forecast'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:3000'],
+    'allowed_origins' => ['https://peppy-queijadas-a05c9e.netlify.app'],
 
     'allowed_origins_patterns' => [],
 
     'allowed_headers' => ['*'],
 
-    'exposed_headers' => false,
+    'exposed_headers' => [],
 
-    'max_age' => false,
+    'max_age' => 0,
 
     'supports_credentials' => false,
 
